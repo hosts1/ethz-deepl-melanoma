@@ -1,0 +1,19 @@
+
+## poster
+- 5 bereiche
+  1) grundidee: differenzieren zwischen den versch melanoma arten
+  2) wie wird es klassifiziert? was ist der unterschied zw den melanoma arten?
+  3) output random forest, output vortrainierter, output von scratch trainierter
+  4) ergebnis / missklassifizierte bilder
+  5) ergebnis machbarkeit / fazit
+      was waren unsere schwierigkeiten?
+      daten auslesen, tensorflow auf R
+      
+- vera macht ein poster
+
+## präsentation
+-> wir erläutern das poster (v.a. urs)
+
+## code base
+-> github repo nachvollziehbar und sinnvoll (v.a. silvan)
+
