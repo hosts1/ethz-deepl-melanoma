@@ -1,10 +1,10 @@
 
 ## poster
 - 5 bereiche
-  1) grundidee: differenzieren zwischen den versch melanoma arten
-  2) wie wird es klassifiziert? was ist der unterschied zw den melanoma arten?
-  3) output random forest, output vortrainierter, output von scratch trainierter
-  4) ergebnis / missklassifizierte bilder
+  1) grundidee: differenzieren zwischen den versch Hautabnormalitäten Nevus, sebor kerat und Hautkrebs (Melanoma)
+  2) wie wird es klassifiziert? was ist der unterschied zw den Hautabnormalitäten?
+  3) output random forest, output vortrainierter, output von scratch trainierter CNN
+  4) ergebnis / missklassifizierte bilder -> vom CCN
   5) ergebnis machbarkeit / fazit
       was waren unsere schwierigkeiten?
       daten auslesen, tensorflow auf R
