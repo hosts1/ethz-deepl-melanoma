@@ -46,7 +46,7 @@ pretrained CNN with VGG: maybe to many features
 CNN from scratch: not enough data to define features
 
 
-Why CNN from scratch could not perform as good: 
+Why CNN from scratch could not perform as good even when using dropout layers: 
 - amount of data (to few and imbalanced per category)
-- regularization (no dropouts on layers)/ maybe to few validation data? 
+- regularization/ maybe to few validation data? 
  
