@@ -4,9 +4,8 @@ In this group work we applied different Deep Learning methods on a public datase
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Conclusion] #conclusion
+* [Conclusion] (#conclusion)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
@@ -47,22 +46,20 @@ In this group work we applied different Deep Learning methods on a public datase
 - Keras (Version 2.6)
 
 ### Run on Kaggle
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
+1) The notebook `dl-melanona-detection-dataset.ipynb` can be downloaded and imported into Kaggle, or you can choose to import the notebook an Kaggle)
+2) Set Language to `R` on Kaggle
+3) Import the dataset into your Kaggle notebook
+  * With "Add Data button"
+  * Add the URL `https://www.kaggle.com/datasets/wanderdust/skin-lesion-analysis-toward-melanoma-detection`
+4) Run the notebook cell by cell, or all at once
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+Used and inspired by the following resources
+* https://www.kaggle.com/datasets/wanderdust/skin-lesion-analysis-toward-melanoma-detection/code. 
+* https://tensorchiefs.github.io/dl_rcourse_2022/.
+* https://tensorflow.rstudio.com/guides/keras/preprocessing_layers.
+* https://medium.com/mini-distill/effect-of-batch-size-on-training-dynamics-21c14f7a716e
 
 ## Contact
 Urs Mayr (mayru@student.ethz.ch)
