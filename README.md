@@ -1,6 +1,6 @@
 # Classification of a Melanoma with Deep Learning
 ## 447-6265-00L Deep Learning: Ein probabilistischer Ansatz HS2022
-In this group work we applied different Deep Learning methods on to a public dataset containing different melanomas. The goal is to identify harmful melanomas, which cause cancer.
+In this group work we applied different Deep Learning methods on a public dataset containing different melanomas. The goal is to identify harmful melanomas, which cause cancer.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -20,7 +20,24 @@ In this group work we applied different Deep Learning methods on to a public dat
 - Identify the images which are predicted badly
 
 ## Conclusion
-
+* Performance of Deep Learning
+  * Our CNN models are performing worse than the Random forest ones -> possibly due to too many parameters which could been opimized
+  * Are the current neuronal networks fitting the local minima? Maybe the learning rate is too big.
+  * We could tried to use more epochs for getting smaller learning rate.
+  * Maybe we should have added more hidden layers to receive more neurons.
+  * Maybe we should have used a different optimizer than "adam" to compile the model? "adam" is an optimized algorithm instead of classical  SGD as stocahstic gradient descent, that can work with non-convex optimization problems (thus local minima instead of global minima?)
+  
+* Main issues
+  * Image quality not satisfying
+    * Different image resolutions
+    * Different depth of color
+    * Some images have artificial markups (from the physicians marking the melanoma), which could influence our model
+  * Imbalanced data
+    * The amount of image of the different labels (nevus, melanoma and seborrheic keratosis) is different
+    * We can compensate this with a weighted or balanced random forest, or when using Tensorflow with class weighting or oversampling
+  * Overfitting of CNN when training from scratch
+    * Data augmentation was not possible with our R implementation
+    * `could not find function "layer_random_flip"` this is most probably due to a version conflict
 
 ## Setup
 ### Technologies Used
