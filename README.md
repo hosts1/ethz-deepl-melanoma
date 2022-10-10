@@ -4,7 +4,7 @@ In this group work we applied different Deep Learning methods on a public datase
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Conclusion] (#conclusion)
+* [Conclusion](#conclusion)
 * [Setup](#setup)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
